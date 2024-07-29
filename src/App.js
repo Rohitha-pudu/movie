@@ -4,7 +4,8 @@ import './App.css';
 import SearchIcon from './search.svg';
 
 
-const API_URL='http://www.omdbapi.com/?i=tt3896198&apikey=6f2145a8';
+// const API_URL='http://www.omdbapi.com/?i=tt3896198&apikey=6f2145a8';
+const API_URL = process.env.REACT_APP_API_URL;
 
 /*const movie1={
   "Title": "Spiderman",
